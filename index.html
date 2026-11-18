@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
+    <title>section17</title>
+  </head>
+  <body>
+    <section class="card" style="max-width: 320px">
+      <img
+        src="https://dkstatics-public.digikala.com/digikala-adservice-banners/8d638b2c3827a1d46ab4856a9e02bc1f3c41661a_1794917733.jpg?x-oss-process=image/quality,q_80/format,webp"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card’s content.
+        </p>
+        <a href="#" class="btn-solid theme-primary">Go somewhere</a>
+      </div>
+    </section>
+
+    <!-- Swiper -->
+    <div class="swiper nazSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            src="https://dkstatics-public.digikala.com/digikala-adservice-banners/673b99ea6cb9c67518aadd971f61b6c1a01e88d4_1794767439.jpg?x-oss-process=image/quality,q_80/format,webp"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://dkstatics-public.digikala.com/digikala-adservice-banners/9741319f8b561d92bdff951a0b497e3d4830d7b9_1794036083.jpg?x-oss-process=image/quality,q_80/format,webp"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://dkstatics-public.digikala.com/digikala-adservice-banners/e2f4b9b6ef00b567b75d1c14624611ba4ad98571_1794382761.jpg?x-oss-process=image/quality,q_80/format,webp"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://dkstatics-public.digikala.com/digikala-adservice-banners/c23b6d93d10ad9aee5c5290866b9f9dd29917a13_1794132607.jpg?x-oss-process=image/quality,q_80/format,webp"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://dkstatics-public.digikala.com/digikala-adservice-banners/086ae18eba4ea0f9814d13968b14eb72e06e01d9_1794737586.jpg?x-oss-process=image/quality,q_80/format,webp"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".nazSwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
